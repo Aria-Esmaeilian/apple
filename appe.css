@@ -1,0 +1,350 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-nav-canteiner{
+    width:100%;
+    height: 72px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 2;
+}
+.div-Bootstrap{
+    position: absolute;
+    top:16px ;
+    left: 78px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.a-start{
+    font-size: 20px;
+    font-weight: 700;
+}
+.button-Bootstrap{
+    position: absolute;
+    top:16px ;
+    right: 88px;
+    background-color: #2937f0;
+    color: white;
+    font-size: 15px;
+    width: 158px;
+    height: 38px;
+    border-radius: 20px;
+    border: transparent;
+}
+.button-Bootstrap:hover{
+    background-color: #232fd8;
+}
+.div-Bootstrap2{
+    position: absolute;
+    top:23px ;
+    left: 970px;
+}
+.bnm{
+    margin-right: 7px;
+}
+.vbn{
+    margin-right: 23px;
+    font-size: 17px;
+}
+.vbn:hover{
+    color:gray;
+}
+.div-header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 781px;
+    padding-top: 234px;
+    padding-left: 90px;
+    padding-right: 60px;
+}
+h1{
+    color: black;
+    font-size: 73px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+p{
+    font-size:19px;
+    font-weight: 600;
+    color: #6c757d;
+    margin-bottom: 50px;
+}
+img{
+    width: 162px;
+    height: 48px;
+    margin-right: 10px; 
+    
+ 
+}
+.div-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 408px;
+    height: 477px;
+    padding-left: 460px;
+}
+.div-color-cerkel{
+    width: 520px;
+    height: 580px;
+    background: linear-gradient(100deg, #2938f5, #d800ff);
+    clip-path: circle(40%);
+    position: absolute;
+    right: 140px;
+    top: 140px;
+    z-index: -1;
+}
+.div-text{
+    width: 520px;
+}
+.img-phone-apple{
+    position: absolute;
+    right: 250px;
+    top: 150px;
+    width: 280px;
+    height: 560px;
+    z-index: 1;
+}
+.hp{
+    position: absolute;
+    right: 260px;
+    top: 165px;
+    width: 280px;
+    height: 530px;
+    z-index: 0;
+}
+.cir{
+    color: #2937f0;
+    position: absolute;
+    top: 230px;
+    right: 150px;
+    z-index: -1;
+}
+.x{
+    font-size: 23px;
+    color: #2937f0;
+    position: absolute;
+    top: 600px;
+    right: 620px;
+    z-index: -1;
+}
+.div1-section{
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(90deg, #2938f5, #d800ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 39px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 24px;
+}
+.div2-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 750px;
+    padding-top: 80px;
+    position: relative;
+}
+.div-phone2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 408px;
+    height: 477px;
+    padding-left: 460px;
+}
+.div-color-cerkel2{
+    width:350px;
+    height: 420px;
+    background: linear-gradient(165deg, #2938f5, #d800ff);
+    clip-path: circle(40%);
+    position: absolute;
+    left: 80px;
+    top: 170px;
+    z-index: -1;
+}
+.hp2{
+    position: absolute;
+    left: 200px;
+    top: 113px;
+    width: 280px;
+    height: 530px;
+    z-index: 0;
+}
+.img-phone-apple2{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 280px;
+    height: 560px;
+    z-index: 1;
+}
+.cir2{
+    color: #2937f0;
+    position: absolute;
+    top: 550px;
+    left: 120px;
+    z-index: -1;
+}
+.x2{
+    font-size: 23px;
+    color: #2937f0;
+    position: absolute;
+    top: 130px;
+    left: 530px;
+    z-index: -1;
+}
+.p-div-s3{
+    color: #6c757d;
+    font-size: 17px;
+}
+h3{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 9px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns:  auto auto;
+    padding-left: 120px;
+    padding-top: 90px;
+    height: 500px;
+}
+.gjhkgkhjghkj{
+    text-align: center;
+    margin-left: 40px;
+}
+.io{
+    font-size: 65px;
+    background: linear-gradient(226deg, #2938f5, #d800ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    margin-bottom: 19px;
+}
+.div3-section{
+    width: 100%;
+    height: 780px;
+    padding-top: 80px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h4{
+    font-size: 54px;
+    margin-bottom: 25px;
+    line-height: 60px;
+}
+.p-cdevfr{
+    margin: 0;
+    font-size:23px;
+    color: #6c757d;
+
+}
+.img-cerlwsdkmf{
+    position: absolute;
+    top: 20px;
+    right:0px;
+    width: 760px;
+    height: 760px;
+    clip-path: circle(40%);
+    
+}
+.pppp{
+    position: absolute;
+    left: 100px;
+}
+.div4-section{
+    width: 100%;
+    height: 703px;
+    padding-top: 240px;
+    background-image: url(	https://source.unsplash.com/5g41N3uRPf8/1500x800);
+    position: relative;
+}
+.ocafh{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    padding-top: 240px;
+}
+h5{
+    font-size: 74px;
+    margin-bottom: 25px;
+    color: white;
+    padding-left: 110px;
+}
+.button-button{
+    width: 200px;
+    height: 58px;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-left: 110px;
+}
+.button-button:hover{
+    background-color: white;
+    color: black;
+}
+.qqqqq{
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(100deg, #2938f5, #d800ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h6{
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: white;
+}
+.wwwww{
+    display: flex;
+    flex-direction:row;
+}
+.hhhhhhh{
+    width: 100%;
+    height: 155px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.cvbaaa{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom:8px;
+}

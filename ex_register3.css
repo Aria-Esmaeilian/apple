@@ -1,0 +1,150 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #271466, #CA6E7B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.canteiner{
+    width: 900px;
+    height: 620px;
+    background-color: #02025E;
+    display: flex;
+    flex-direction: row;
+}
+.div1-text{
+    width: 50%;
+    height: 100%;
+}
+.div2-pic{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://2l7g9kgsh281akevs49v281d-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/Nerd_28__1576170694_49296-min-e1576170875185.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    position: relative;
+}
+.mesh{
+    z-index:1;
+    background: linear-gradient(180deg, transparent, #7e2e6d);
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom:100px;
+}
+.mesh22{
+    z-index:1;
+    background-color: #7e2e6d;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    border: transparent;
+}
+.d-felexs{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    z-index: 1;
+}
+.text-aline{
+    text-align: center;
+    word-spacing: 2px;
+}
+.padding{
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    color: #CA6E7B;
+    font-size: 43px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.div-div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.ppp{
+    color: white;
+}
+.row{
+    width: 100%;
+    height: 100%;
+}
+.input{
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:1px solid groove ;
+    width: 220px;
+    margin-bottom: 25px;
+    color: white;
+}
+.input:hover{
+    border-bottom:1px solid gray ;
+}
+.input2{
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:0;
+    width: 35px;
+    color: white;
+    border-radius: 0;
+    padding-bottom: 43px;
+}
+.input2:hover{
+    color: rgb(134, 134, 134);
+}
+.ff{
+    margin-top: 20px;
+    height: 100px;
+}
+.jj{
+    margin-right: 190px;
+}
+.jc{
+    margin-right: 195px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 150px;
+    left: 320px;
+    color: white;
+    background: linear-gradient(270deg, transparent,#7e2e6d , #CA6E7B);
+    border: 0;
+    font-weight: 600;
+    transition: width 0.5s;
+}
+.button:hover{
+   width :230px;
+   background: linear-gradient(270deg, #CA6E7B,#7e2e6d , transparent);
+}

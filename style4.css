@@ -1,0 +1,102 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgrand{
+    background-image:url(big_7e515a68a31ea061819a906e9f16ef1e4af72552.jpg);
+    background-size: contain;
+}
+
+.google{
+    width: 300px;
+    margin-left: 39%;
+    margin-top: 10%;
+}
+.searchcolor{
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left:29%;
+    padding: 12px;
+    width: 600px;
+}
+.searchcolor:hover{
+    background-color: rgb(225, 225, 225);
+    cursor: text;
+}
+.headdiv{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.div{
+    display: inline;
+}
+.imgeclass{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: inline;
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+.imgeclass:hover{
+    border: 3px solid grey;
+    cursor: pointer;
+}
+.imgeclass .backgrand-color:hover{
+    width: 45px;
+    height: 45px;
+}
+.textcolor{
+    color: white; 
+    display:inline; 
+    margin: 20px;
+    float: right;
+    position: absolute;
+    right: 70px;
+    top: 11px;
+}
+.textcolor:hover{
+    text-decoration:underline;
+    cursor: pointer;
+
+}
+.footer1{
+    background-color: rgb(0 0 0);
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    height: 50px;
+    margin-top: 290px;
+    color: white;
+
+}
+.footer1:hover{
+    text-decoration: underline;
+    background-color: #000000ba;
+    cursor: pointer;
+}
+.footer2{    
+    background-color: rgb(0 0 0);
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    height: 50px;
+    margin-top: 5px;
+    color: white;
+}
+.footer2:hover{
+    text-decoration: underline;
+    background-color: #000000ba;
+    cursor: pointer;
+}
+footer{
+    margin-bottom:300px;
+}
